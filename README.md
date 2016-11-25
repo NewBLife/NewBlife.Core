@@ -23,3 +23,23 @@ include:
     
 2.json utility  
 + serillize error setting
+
+### 5,Plugin for xamarin
+1.Log plugin  
++ Azure mobile engagement
++ hockeyapp 
+
+2.Resource plugin
+
+### 6,UWP project
+1.Suspend logic   
+2.Camera logic  
+3.File logic  
+4.template   
+
+### 7,Asp.net mvc project
+1.Nlog   
+2.Azure redis cache    
+3.Custom validation  
+4.Error handler logic    
+5.DbConnect timeout retry  

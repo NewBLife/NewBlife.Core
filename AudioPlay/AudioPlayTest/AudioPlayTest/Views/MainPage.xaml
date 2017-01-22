@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AudioPlayTest.Views.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    Title="MainPage"
+    prism:ViewModelLocator.AutowireViewModel="True">
+    <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="Center">
+        <Entry Text="{Binding FilePath, Mode=TwoWay}" />
+        <Button Command="{Binding PlayCommand}" Text="Play" />
+        <Button Command="{Binding PasueCommand}" Text="Pasue" />
+        <Button Command="{Binding StopCommand}" Text="Stop" />
+    </StackLayout>
+</ContentPage>

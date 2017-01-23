@@ -1,4 +1,3 @@
-using AudioToolbox;
 using AVFoundation;
 using Foundation;
 using System.Net.Http;
@@ -29,9 +28,7 @@ namespace AudioPlay.Platform
         public void InitPalyer(string fileUrl)
         {
             NSError _err = null;
-            var myLocalMedia = AudioFile.Open(new NSUrl(fileUrl), AudioFilePermission.Read, AudioFileType.MP3);
-            NSData data = NSData.FromUrl(NSUrl.FromString(fileUrl));
-            player = AVAudioPlayer.FromData(data, out _err);
+            player = AVAudioPlayer.FromUrl(NSUrl.FromString(fileUrl), out _err);
             player.Volume = 100f;
             player.FinishedPlaying += (s, e) =>
             {

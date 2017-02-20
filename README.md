@@ -1,6 +1,8 @@
 # NewBlife.Core
 myself function library to make fast of my development
 
+##Todo:
+----
 ### 1,Http connect project
 http connect logic include 500 503 504 retry.httprequest.get,post,put,delete and on.
 ### 2,Sharpoint connect project

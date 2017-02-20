@@ -45,7 +45,7 @@ include:
 3.Custom validation  
 4.Error handler logic    
 5.DbConnect timeout retry  
-6,Openlayers for openstreetmap
-7,Chart vs Chart.js
-8,Html to pdf
-9,Dapper base provider
+6,Openlayers for openstreetmap  
+7,Chart vs Chart.js  
+8,Html to pdf  
+9,Dapper base provider  

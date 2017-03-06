@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushTest", "PushTest\PushTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushTest.Droid", "PushTest\PushTest.Droid\PushTest.Droid.csproj", "{8387C483-7C85-4FDC-967B-FC08AF0C89A9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{0717CFAF-2E08-4118-BB75-6283211C20DC}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\BaiduPush.SDK.dll = Libs\BaiduPush.SDK.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

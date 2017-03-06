@@ -1,6 +1,8 @@
 # NewBlife.Core
 myself function library to make fast of my development
 
+##Todo:
+----
 ### 1,Http connect project
 http connect logic include 500 503 504 retry.httprequest.get,post,put,delete and on.
 ### 2,Sharpoint connect project
@@ -43,3 +45,7 @@ include:
 3.Custom validation  
 4.Error handler logic    
 5.DbConnect timeout retry  
+6,Openlayers for openstreetmap  
+7,Chart vs Chart.js  
+8,Html to pdf  
+9,Dapper base provider  

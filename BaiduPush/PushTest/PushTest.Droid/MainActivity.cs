@@ -1,13 +1,10 @@
-﻿using System;
-
+﻿
 using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
-using Prism.Unity;
+using Com.Baidu.Android.Pushservice;
 using Microsoft.Practices.Unity;
+using Prism.Unity;
 
 namespace PushTest.Droid
 {
@@ -23,6 +20,8 @@ namespace PushTest.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App(new AndroidInitializer()));
+
+            PushManager.StartWork(this.ApplicationContext, PushConstants.LoginTypeApiKey, "trcK2e7vlMfN0StPx8n8Pb4M");
         }
     }
 

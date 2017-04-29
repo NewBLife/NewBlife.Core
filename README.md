@@ -49,3 +49,5 @@ include:
 7,Chart vs Chart.js  
 8,Html to pdf  
 9,Dapper base provider  
+10ÅCAutoMapper
+

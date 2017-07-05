@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconProject Version="2.0" Name="Download 02 WF " PUAEnable="true" BasicLatinEnable="false">
+  <Icon Name=" Download 02 WF " HasCharacterMap="false" Location="Miscellaneous" IsDirty="false" FontName=" Download 02 WF " IsDuplicate="false" ASCIIValue="" AlphaNumericValue="" FiValue="" GroupName="Miscellaneous" ExportCommand="MetroGraphicsPackage.IconCommand" Data="M0,29.537998L13.782957,29.537998 27.077999,29.537998 27.077999,31.999001 0,31.999001z M12.307006,0L14.767942,0 14.767942,25.176706 24.369017,16.245991 26.090939,18.215994 13.782957,29.537998 1.7219239,18.215994 3.199951,16.245991 12.307006,24.718061z" DataFont="M77.9,1L924.1,1 924.1,77.9 508.6,77.9 77.9,77.9 77.9,1z M462.5,228.5L177.9,493.3 131.7,431.7 508.6,77.9 893.2,431.7 839.4,493.3 539.4,214.2 539.4,1001 462.5,1001 462.5,228.5z">
+    <Settings MainWidth="256" MainHeight="256" FlipX="1" FlipY="1" CustomSize="256" IconShape="None" BackgroundBrush="#FF000000" ContentWidth="256" ContentHeight="256" Angle="0" IsRect="false" SizeIndex="6" CustomWidth="256" CustomHeight="256" IsLinked="false" Padding="0" MaximumPadding="79" SldierValueChanged="MetroGraphicsPackage.IconCommand" IconBrush="#FF0D8EFF" FontFamily="Webdings" Character="&gt;" FlipCommand="MetroGraphicsPackage.IconCommand" IsBackgroundVisible="true" />
+  </Icon>
+  <PreferenceInfo ClassPrefix="sf-icon-" ClassPostfix="" CSSSelector="Attribute" CSSClassName="sf-icon" />
+</IconProject>

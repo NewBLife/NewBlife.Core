@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconProject Version="2.0" Name="Home" PUAEnable="true" BasicLatinEnable="false">
+  <Icon Name="House-07" HasCharacterMap="false" Location="Miscellaneous" IsDirty="false" FontName="House-07" IsDuplicate="false" ASCIIValue="" AlphaNumericValue="" FiValue="" GroupName="Miscellaneous" ExportCommand="MetroGraphicsPackage.IconCommand" Data="M16.200012,8.3999948L27.899963,17.500002 27.899963,31.200001 18.399963,31.200001 18.399963,21.599993 13.399963,21.599993 13.399963,31.200001 4,31.200001 4,17.599993z M16.200012,0L32,12.599993 32,16.800005 16.200012,4.0999912 0,17.199999 0,13.000002z" DataFont="M127.5,440L127.5,15 421.2,15 421.2,315 577.5,315 577.5,15 874.4,15 874.4,443.1 508.8,727.5 127.5,440z M2.5,583.7L2.5,452.5 508.8,861.9 1002.5,465 1002.5,596.3 508.8,990 2.5,583.7z">
+    <Settings MainWidth="256" MainHeight="256" FlipX="1" FlipY="1" CustomSize="256" IconShape="None" BackgroundBrush="#FF000000" ContentWidth="256" ContentHeight="256" Angle="0" IsRect="false" SizeIndex="6" CustomWidth="256" CustomHeight="256" IsLinked="false" Padding="0" MaximumPadding="79" SldierValueChanged="MetroGraphicsPackage.IconCommand" IconBrush="#FF0D8EFF" FontFamily="Webdings" Character="&gt;" FlipCommand="MetroGraphicsPackage.IconCommand" IsBackgroundVisible="true" />
+  </Icon>
+  <PreferenceInfo ClassPrefix="sf-icon-" ClassPostfix="" CSSSelector="Attribute" CSSClassName="sf-icon" />
+</IconProject>

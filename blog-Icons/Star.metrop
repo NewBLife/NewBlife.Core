@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconProject Version="2.0" Name="Star" PUAEnable="true" BasicLatinEnable="false">
+  <Icon Name="Star" HasCharacterMap="false" Location="Miscellaneous" IsDirty="false" FontName="Star" IsDuplicate="false" ASCIIValue="" AlphaNumericValue="" FiValue="" GroupName="Miscellaneous" ExportCommand="MetroGraphicsPackage.IconCommand" Data="M15.997986,0L19.777008,11.620999 32,11.620999 22.109009,18.807002 25.888,30.432 15.997986,23.245997 6.1109924,30.432 9.8840027,18.807002 0,11.620999 12.222992,11.620999z" DataFont="M383,613.3L1,613.3 309.9,388.7 192,25.5 501,250.1 810,25.5 691.9,388.8 1001,613.3 619,613.3 500.9,976.5 383,613.3z">
+    <Settings MainWidth="256" MainHeight="256" FlipX="1" FlipY="1" CustomSize="256" IconShape="None" BackgroundBrush="#FF000000" ContentWidth="256" ContentHeight="256" Angle="0" IsRect="false" SizeIndex="6" CustomWidth="256" CustomHeight="256" IsLinked="false" Padding="0" MaximumPadding="79" SldierValueChanged="MetroGraphicsPackage.IconCommand" IconBrush="#FF0D8EFF" FontFamily="Webdings" Character="&gt;" FlipCommand="MetroGraphicsPackage.IconCommand" IsBackgroundVisible="true" />
+  </Icon>
+  <PreferenceInfo ClassPrefix="sf-icon-" ClassPostfix="" CSSSelector="Attribute" CSSClassName="sf-icon" />
+</IconProject>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -164,6 +165,36 @@ namespace NewBlife.Core.Extensions
         internal static string GetFileName([CallerFilePath] string filePath = "")
         {
             return Path.GetFileNameWithoutExtension(filePath);
+        }
+
+        public static IEnumerable<string> GetFiles(this string path, string pattern = "*.*", SearchOption option = SearchOption.AllDirectories)
+        {
+            if (path.IsNullOrEmpty())
+            {
+                return null;
+            }
+
+            var folder = new DirectoryInfo(path);
+            if (folder.Exists)
+            {
+                var list = folder.EnumerateFiles(pattern, option);
+                if (!list.IsNullOrEmpty())
+                {
+                    var ret = new List<string>();
+                    foreach (var item in list)
+                    {
+                        if (item.Attributes.HasFlag(FileAttributes.Hidden))
+                        {
+                            continue;
+                        }
+                        ret.Add(item.FullName);
+                    }
+
+                    return ret;
+                }
+            }
+
+            return null;
         }
     }
 }

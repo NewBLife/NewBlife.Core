@@ -9,5 +9,15 @@ namespace NewBlife.Core.Extensions
         {
             return list == null || !list.Any();
         }
+
+        public static bool IsItemExists<T>(this IEnumerable<T> list, T item)
+        {
+            if (list.IsNullOrEmpty())
+            {
+                return false;
+            }
+
+            return list.Contains(item);
+        }
     }
 }
